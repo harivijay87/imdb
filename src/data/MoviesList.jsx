@@ -3,7 +3,7 @@ const MoviesList = [
   {
     id: 1,
     type: "movie",
-    image: "../../public/images/movies/hitman.jpg",
+    image: "/imdb/images/movies/hitman.jpg",
     rating: "6.9",
     name: "Hit Man",
     watchOption: {
@@ -17,7 +17,7 @@ const MoviesList = [
       Stars: "Glen Powell - Adria Arjona - Austin Amelio",
       platform: "netflix",
       platformLink: "https://www.netflix.com/in/title/81728840?source=imdb",
-      ottImage: '/images/ott/netflix.webp'
+      ottImage: '/imdb/images/ott/netflix.webp'
     },
     trailer: "https://www.youtube.com/watch?v=DXwa8DKIK7g",
     bookmark: true,
@@ -27,7 +27,7 @@ const MoviesList = [
   {
     id: 2,
     type: "movie",
-    image: "/images/movies/triggerwarning.jpg",
+    image: "/imdb/images/movies/triggerwarning.jpg",
     rating: "4.6",
     name: "Trigger Warning",
     watchOption: {
@@ -41,7 +41,7 @@ const MoviesList = [
       Stars: "Jessica Alba - Mark Webber - Antony Micheal Hall",
       platform: "netflix",
       platformLink: "https://www.netflix.com/in/title/81064546?source=imdb",
-      ottImage: '/images/ott/netflix.webp'
+      ottImage: '/imdb/images/ott/netflix.webp'
     },
     trailer: "https://www.youtube.com/watch?v=MnHTLh6ruW0",
     bookmark: false,
@@ -51,7 +51,7 @@ const MoviesList = [
   {
     id: 3,
     type: "movie",
-    image: "/images/movies/oppenheimer.jpg",
+    image: "/imdb/images/movies/oppenheimer.jpg",
     rating: "8.3",
     name: "Oppenheimer",
     watchOption: {
@@ -65,7 +65,7 @@ const MoviesList = [
       Stars: "Cillian Murphy - Emily Blunt - RDJ",
       platform: "jiocinema",
       platformLink: "https://www.jiocinema.com/movies/-/3914094",
-      ottImage: '/images/ott/jiocinema.webp'
+      ottImage: '/imdb/images/ott/jiocinema.webp'
     },
     trailer: "https://www.youtube.com/watch?app=desktop&v=qAWEb0h43lU",
     bookmark: true,
@@ -75,7 +75,7 @@ const MoviesList = [
   {
     id: 4,
     type: "tvshow",
-    image: "/images/tvshows/theboys.jpg",
+    image: "/imdb/images/tvshows/theboys.jpg",
     rating: "8.7",
     name: "The Boys",
     watchOption: {
@@ -89,7 +89,7 @@ const MoviesList = [
       Stars: "Karl Urban - Antony Starr - Jack Quaid",
       platform: "primevideo",
       platformLink: "https://www.primevideo.com/detail/amzn1.dv.gti.5eb510bc-7578-d2dd-49d3-484070a96b52",
-      ottImage: '/images/ott/amazonprime.webp'
+      ottImage: '/imdb/images/ott/amazonprime.webp'
     },
     trailer: "https://www.youtube.com/watch?v=EzFXDvC-EwM",
     bookmark: true,
@@ -99,7 +99,7 @@ const MoviesList = [
   {
     id: 5,
     type: "tvshow",
-    image: "/images/tvshows/house-of-the-dragon.jpg",
+    image: "/imdb/images/tvshows/house-of-the-dragon.jpg",
     rating: "8.4",
     name: "House of the Dragon",
     watchOption: {
@@ -113,7 +113,7 @@ const MoviesList = [
       Stars: "Matt Smith - Emma D'Arcy - Olivia Cooke",
       platform: "jiocinema",
       platformLink: "https://www.jiocinema.com/tv-shows/-/3740000",
-      ottImage: '/images/ott/jiocinema.webp'
+      ottImage: '/imdb/images/ott/jiocinema.webp'
     },
     trailer: "https://www.youtube.com/watch?v=YN2H_sKcmGw",
     bookmark: false,
@@ -123,7 +123,7 @@ const MoviesList = [
   {
     id: 6,
     type: "movie",
-    image: "/images/movies/madmax-fury-road.jpg",
+    image: "/imdb/images/movies/madmax-fury-road.jpg",
     rating: "8.1",
     name: "Mad Max: Fury Road",
     watchOption: {
@@ -137,7 +137,7 @@ const MoviesList = [
       Stars: "Tom Hardy - Charlize Theron - Nicholas Hoult",
       platform: "netflix",
       platformLink: "https://www.netflix.com/in/title/80025919?source=imdb",
-      ottImage: '/images/ott/netflix.webp'
+      ottImage: '/imdb/images/ott/netflix.webp'
     },
     trailer: "https://www.youtube.com/watch?v=hEJnMQG9ev8",
     bookmark: false,
@@ -147,7 +147,7 @@ const MoviesList = [
   {
     id: 7,
     type: "movie",
-    image: "/images/movies/godzilla-minus-one.jpg",
+    image: "/imdb/images/movies/godzilla-minus-one.jpg",
     rating: "7.7",
     name: "Godzilla Minus One",
     watchOption: {
@@ -161,7 +161,7 @@ const MoviesList = [
       Stars: "Minami Hamabe - Ryunosuke Kamiki - Sakura Ando",
       platform: "netflix",
       platformLink: "https://www.netflix.com/in/title/81767635?source=imdb",
-      ottImage: '/images/ott/netflix.webp'
+      ottImage: '/imdb/images/ott/netflix.webp'
     },
     trailer: "https://www.youtube.com/watch?v=x7ythIm0834",
     bookmark: false,
@@ -171,7 +171,7 @@ const MoviesList = [
   {
     id: 8,
     type: "movie",
-    image: "/images/movies/interstellar.jpg",
+    image: "/imdb/images/movies/interstellar.jpg",
     rating: "8.7",
     name: "Interstellar",
     watchOption: {
@@ -185,7 +185,7 @@ const MoviesList = [
       Stars: "Matthew McConaughey - Anne Hathaway - Jessica chastain",
       platform: "netflix",
       platformLink: "https://www.netflix.com/in/title/70305903?source=imdb",
-      ottImage: '/images/ott/netflix.webp'
+      ottImage: '/imdb/images/ott/netflix.webp'
     },
     trailer: "https://www.youtube.com/watch?v=zSWdZVtXT7E",
     bookmark: true,
@@ -195,7 +195,7 @@ const MoviesList = [
   {
     id: 9,
     type: "movie",
-    image: "/images/movies/road-house.jpg",
+    image: "/imdb/images/movies/road-house.jpg",
     rating: "6.2",
     name: "Road House",
     watchOption: {
@@ -209,7 +209,7 @@ const MoviesList = [
       Stars: "Jake Gyllenhaal - Daniela Melchior - Conor McGregor",
       platform: "primevideo",
       platformLink: "https://www.primevideo.com/detail/amzn1.dv.gti.98ae5e51-4ffa-46e8-be29-2f864db92f6d",
-      ottImage: '/images/ott/amazonprime.webp'
+      ottImage: '/imdb/images/ott/amazonprime.webp'
     },
     trailer: "https://www.youtube.com/watch?v=Y0ZsLudtfjI",
     bookmark: false,
@@ -219,7 +219,7 @@ const MoviesList = [
   {
     id: 10,
     type: "movie",
-    image: "/images/movies/poor-things.jpg",
+    image: "/imdb/images/movies/poor-things.jpg",
     rating: "7.9",
     name: "Poor Things",
     watchOption: {
@@ -233,7 +233,7 @@ const MoviesList = [
       Stars: "Emma Stone - Mark Ruffalo - Willem Dafoe",
       platform: "primevideo",
       platformLink: "https://www.primevideo.com/detail/Poor-Things/0OUCYU3AALHQG7YJ4PTC6S2LNM",
-      ottImage: '/images/ott/amazonprime.webp'
+      ottImage: '/imdb/images/ott/amazonprime.webp'
     },
     trailer: "https://www.youtube.com/watch?v=RlbR5N6veqw",
     bookmark: false,
@@ -243,7 +243,7 @@ const MoviesList = [
   {
     id: 11,
     type: "movie",
-    image: "/images/movies/a-quiet-place.jpg",
+    image: "/imdb/images/movies/a-quiet-place.jpg",
     rating: "7.5",
     name: "A Quiet Place",
     watchOption: {
@@ -257,7 +257,7 @@ const MoviesList = [
       Stars: "Emily Blunt - John Krasinski - Millicent Simmonds",
       platform: "netflix",
       platformLink: "https://www.netflix.com/in/title/80213226?source=imdb",
-      ottImage: '/images/ott/netflix.webp'
+      ottImage: '/imdb/images/ott/netflix.webp'
     },
     trailer: "https://www.youtube.com/watch?v=WR7cc5t7tv8",
     bookmark: false,
@@ -267,7 +267,7 @@ const MoviesList = [
   {
     id: 12,
     type: "movie",
-    image: "/images/movies/the-end-we-start-from.jpg",
+    image: "/imdb/images/movies/the-end-we-start-from.jpg",
     rating: "5.9",
     name: "The End We Start From",
     watchOption: {
@@ -281,7 +281,7 @@ const MoviesList = [
       Stars: "Jodie Comer - Joel Fry - Yves Rassou",
       platform: "jiocinema",
       platformLink: "https://www.jiocinema.com/movies/-/3982229",
-      ottImage: '/images/ott/jiocinema.webp'
+      ottImage: '/imdb/images/ott/jiocinema.webp'
     },
     trailer: "https://www.youtube.com/watch?v=MciSEbkTkXw",
     bookmark: false,
@@ -291,7 +291,7 @@ const MoviesList = [
   {
     id: 13,
     type: "movie",
-    image: "/images/movies/spider-man.jpg",
+    image: "/imdb/images/movies/spider-man.jpg",
     rating: "7.4",
     name: "Spider-Man",
     watchOption: {
@@ -305,7 +305,7 @@ const MoviesList = [
       Stars: "Tobey Maguire - Kirsten Dunst - Willem Dafoe",
       platform: "netflix",
       platformLink: "https://www.netflix.com/in/title/60004481?source=imdb",
-      ottImage: '/images/ott/netflix.webp'
+      ottImage: '/imdb/images/ott/netflix.webp'
     },
     trailer: "https://www.youtube.com/watch?v=t06RUxPbp_c",
     bookmark: true,
@@ -315,7 +315,7 @@ const MoviesList = [
   {
     id: 14,
     type: "movie",
-    image: "/images/movies/hotel-transylvania.jpg",
+    image: "/imdb/images/movies/hotel-transylvania.jpg",
     rating: "7.0",
     name: "Hotel Transylvania",
     watchOption: {
@@ -329,7 +329,7 @@ const MoviesList = [
       Stars: "Adam Sandler - Kevin James - Andy Samberg",
       platform: "primevideo",
       platformLink: "https://www.primevideo.com/detail/amzn1.dv.gti.a3f788a5-a689-40be-870e-2aaa1c6b6a7a",
-      ottImage: '/images/ott/amazonprime.webp'
+      ottImage: '/imdb/images/ott/amazonprime.webp'
     },
     trailer: "https://www.youtube.com/watch?v=Tm7dl9Q9-NA",
     bookmark: false,
@@ -339,7 +339,7 @@ const MoviesList = [
   {
     id: 15,
     type: "movie",
-    image: "/images/movies/django-unchained.jpg",
+    image: "/imdb/images/movies/django-unchained.jpg",
     rating: "8.5",
     name: "Django Unchained",
     watchOption: {
@@ -353,7 +353,7 @@ const MoviesList = [
       Stars: "Jamie Foxx- Christoph Waltz - Leonardo Dicaprio",
       platform: "primevideo",
       platformLink: "https://www.primevideo.com/detail/amzn1.dv.gti.8acd5ce6-8147-4ba2-ab97-de3dc802f0d1",
-      ottImage: '/images/ott/amazonprime.webp'
+      ottImage: '/imdb/images/ott/amazonprime.webp'
     },
     trailer: "https://www.youtube.com/watch?v=QN1zYslpsqY",
     bookmark: false,
@@ -363,7 +363,7 @@ const MoviesList = [
   {
     id: 16,
     type: "movie",
-    image: "/images/movies/avatar.jpg",
+    image: "/imdb/images/movies/avatar.jpg",
     rating: "7.9",
     name: "Avatar",
     watchOption: {
@@ -377,7 +377,7 @@ const MoviesList = [
       Stars: "Sam Worthington - Zoe Saldana - Sigourney Weaver",
       platform: "disney",
       platformLink: "https://www.hotstar.com/in/movies/avatar/1770000948",
-      ottImage: '/images/ott/disney.webp'
+      ottImage: '/imdb/images/ott/disney.webp'
     },
     trailer: "https://www.youtube.com/watch?v=5PSNL1qE6VY",
     bookmark: false,
@@ -387,7 +387,7 @@ const MoviesList = [
   {
     id: 17,
     type: "movie",
-    image: "/images/movies/300.jpg",
+    image: "/imdb/images/movies/300.jpg",
     rating: "7.6",
     name: "300",
     watchOption: {
@@ -401,7 +401,7 @@ const MoviesList = [
       Stars: "Gerald Butler - Lena Headey - David Wenham",
       platform: "netflix",
       platformLink: "https://www.netflix.com/in/title/70056440?source=imdb",
-      ottImage: '/images/ott/netflix.webp'
+      ottImage: '/imdb/images/ott/netflix.webp'
     },
     trailer: "https://www.youtube.com/watch?v=UrIbxk7idYA",
     bookmark: false,
@@ -411,7 +411,7 @@ const MoviesList = [
   {
     id: 18,
     type: "movie",
-    image: "/images/movies/harry-potter-and-the-half-blood-prince.jpg",
+    image: "/imdb/images/movies/harry-potter-and-the-half-blood-prince.jpg",
     rating: "7.6",
     name: "Harry Potter and the Half-Blood Prince",
     watchOption: {
@@ -425,7 +425,7 @@ const MoviesList = [
       Stars: "Daniel Radcliffe - Emma Stone - Rupert Grint",
       platform: "jiocinema",
       platformLink: "https://www.jiocinema.com/movies/-/3744042",
-      ottImage: '/images/ott/jiocinema.webp'
+      ottImage: '/imdb/images/ott/jiocinema.webp'
     },
     trailer: "https://www.youtube.com/watch?v=JYLdTuL9Wjw",
     bookmark: false,
@@ -435,7 +435,7 @@ const MoviesList = [
   {
     id: 19,
     type: "movie",
-    image: "/images/movies/the-suicide-squad.jpg",
+    image: "/imdb/images/movies/the-suicide-squad.jpg",
     rating: "7.2",
     name: "The Suicide Squad",
     watchOption: {
@@ -449,7 +449,7 @@ const MoviesList = [
       Stars: "Margot Robbie - Idris Elba - John Cena",
       platform: "primevideo",
       platformLink: "https://www.primevideo.com/detail/amzn1.dv.gti.bea1a212-e906-4112-a920-00c2ff185c7f",
-      ottImage: '/images/ott/amazonprime.webp'
+      ottImage: '/imdb/images/ott/amazonprime.webp'
     },
     trailer: "https://www.youtube.com/watch?v=eg5ciqQzmK0",
     bookmark: false,
@@ -459,7 +459,7 @@ const MoviesList = [
   {
     id: 20,
     type: "movie",
-    image: "/images/movies/blade-runner-2049.jpg",
+    image: "/imdb/images/movies/blade-runner-2049.jpg",
     rating: "8.0",
     name: "Blade Runner 2049",
     watchOption: {
@@ -473,7 +473,7 @@ const MoviesList = [
       Stars: "Harrison Ford - Ryan Gosling - Ana de Armas",
       platform: "netflix",
       platformLink: "https://www.netflix.com/in/title/80185760?source=imdb",
-      ottImage: '/images/ott/netflix.webp'
+      ottImage: '/imdb/images/ott/netflix.webp'
     },
     trailer: "https://www.youtube.com/watch?v=gCcx85zbxz4",
     bookmark: false,
@@ -483,7 +483,7 @@ const MoviesList = [
   {
     id: 21,
     type: "movie",
-    image: "/images/movies/ready-player-one.jpg",
+    image: "/imdb/images/movies/ready-player-one.jpg",
     rating: "7.4",
     name: "Ready Player One",
     watchOption: {
@@ -497,7 +497,7 @@ const MoviesList = [
       Stars: "Tye Sheridan - Olivia Cooke - Ben Mendelsohn",
       platform: "primevideo",
       platformLink: "https://www.primevideo.com/detail/amzn1.dv.gti.ceb42b03-7968-6234-f581-7895a098f6ad",
-      ottImage: '/images/ott/amazonprime.webp'
+      ottImage: '/imdb/images/ott/amazonprime.webp'
     },
     trailer: "https://www.youtube.com/watch?v=cSp1dM2Vj48",
     bookmark: false,
@@ -507,7 +507,7 @@ const MoviesList = [
   {
     id: 22,
     type: "movie",
-    image: "/images/movies/mission-impossible-fallout.jpg",
+    image: "/imdb/images/movies/mission-impossible-fallout.jpg",
     rating: "7.7",
     name: "Mission: Impossible-Fallout",
     watchOption: {
@@ -521,7 +521,7 @@ const MoviesList = [
       Stars: "Tom Cruise - Henry Cavill - Ving Rhames",
       platform: "primevideo",
       platformLink: "https://www.primevideo.com/detail/amzn1.dv.gti.fabbdac2-fec8-b2f7-067e-944b1744d169",
-      ottImage: '/images/ott/amazonprime.webp'
+      ottImage: '/imdb/images/ott/amazonprime.webp'
     },
     trailer: "https://www.youtube.com/watch?v=wb49-oV0F78",
     bookmark: false,
@@ -531,7 +531,7 @@ const MoviesList = [
   {
     id: 23,
     type: "movie",
-    image: "/images/movies/ice-age-continental-drift.jpg",
+    image: "/imdb/images/movies/ice-age-continental-drift.jpg",
     rating: "6.5",
     name: "Ice Age: Continental Drift",
     watchOption: {
@@ -545,7 +545,7 @@ const MoviesList = [
       Stars: "Ray Romano - Denis Leary - John Leguizamo",
       platform: "primevideo",
       platformLink: "https://www.primevideo.com/detail/amzn1.dv.gti.6cb528b4-3bd1-f39b-5e2d-e4de90a9e199",
-      ottImage: '/images/ott/amazonprime.webp'
+      ottImage: '/imdb/images/ott/amazonprime.webp'
     },
     trailer: "https://www.youtube.com/watch?app=desktop&v=aBxD3kwiIyg",
     bookmark: false,
@@ -555,7 +555,7 @@ const MoviesList = [
   {
     id: 24,
     type: "movie",
-    image: "/images/movies/titanic.jpg",
+    image: "/imdb/images/movies/titanic.jpg",
     rating: "7.9",
     name: "Titanic",
     watchOption: {
@@ -569,7 +569,7 @@ const MoviesList = [
       Stars: "Leonardo DiCaprio - Kate Winslet - Billy Zane",
       platform: "disney",
       platformLink: "https://www.hotstar.com/in/movies/titanic/1770001166",
-      ottImage: '/images/ott/disney.webp'
+      ottImage: '/imdb/images/ott/disney.webp'
     },
     trailer: "https://www.youtube.com/watch?v=I7c1etV7D7g",
     bookmark: false,
@@ -579,7 +579,7 @@ const MoviesList = [
   {
     id: 25,
     type: "movie",
-    image: "/images/movies/the-dark-knight.jpg",
+    image: "/imdb/images/movies/the-dark-knight.jpg",
     rating: "9.0",
     name: "The Dark Knight",
     watchOption: {
@@ -593,7 +593,7 @@ const MoviesList = [
       Stars: "Christian Bale - Heath Ledger - Aaron Eckhart",
       platform: "netflix",
       platformLink: "https://www.netflix.com/in/title/70079583?source=imdb",
-      ottImage: '/images/ott/netflix.webp'
+      ottImage: '/imdb/images/ott/netflix.webp'
     },
     trailer: "https://www.youtube.com/watch?v=LDG9bisJEaI",
     bookmark: false,
@@ -603,7 +603,7 @@ const MoviesList = [
   {
     id: 26,
     type: "movie",
-    image: "/images/movies/arrival.jpg",
+    image: "/imdb/images/movies/arrival.jpg",
     rating: "7.9",
     name: "Arrival",
     watchOption: {
@@ -617,7 +617,7 @@ const MoviesList = [
       Stars: "Amy Adams - Jeremy Renner - Forest Whitaker",
       platform: "primevideo",
       platformLink: "https://www.primevideo.com/detail/amzn1.dv.gti.2a7ec332-a69e-45e4-8827-88b4c24d577e",
-      ottImage: '/images/ott/amazonprime.webp'
+      ottImage: '/imdb/images/ott/amazonprime.webp'
     },
     trailer: "https://www.youtube.com/watch?v=tFMo3UJ4B4g",
     bookmark: false,
@@ -627,7 +627,7 @@ const MoviesList = [
   {
     id: 27,
     type: "movie",
-    image: "/images/movies/guardians-of-the-galaxy-vol-3.jpg",
+    image: "/imdb/images/movies/guardians-of-the-galaxy-vol-3.jpg",
     rating: "7.9",
     name: "Guardians of the Galaxy vol. 3",
     watchOption: {
@@ -641,7 +641,7 @@ const MoviesList = [
       Stars: "Chris Pratt - Zoe Saldana - Bradley Cooper",
       platform: "disney",
       platformLink: "https://www.hotstar.com/in/movies/guardians-of-the-galaxy-vol-3/1260143699",
-      ottImage: '/images/ott/disney.webp'
+      ottImage: '/imdb/images/ott/disney.webp'
     },
     trailer: "https://www.youtube.com/watch?v=u3V5KDHRQvk",
     bookmark: false,
@@ -651,7 +651,7 @@ const MoviesList = [
   {
     id: 28,
     type: "movie",
-    image: "/images/movies/man-of-steel.jpg",
+    image: "/imdb/images/movies/man-of-steel.jpg",
     rating: "7.1",
     name: "Man of Steel",
     watchOption: {
@@ -665,7 +665,7 @@ const MoviesList = [
       Stars: "Henry Cavil - Amy Adams - Michael Shannon",
       platform: "netflix",
       platformLink: "https://www.netflix.com/in/title/70264797?source=imdb",
-      ottImage: '/images/ott/netflix.webp'
+      ottImage: '/imdb/images/ott/netflix.webp'
     },
     trailer: "https://www.youtube.com/watch?v=T6DJcgm3wNY",
     bookmark: false,
@@ -675,7 +675,7 @@ const MoviesList = [
   {
     id: 29,
     type: "tvshow",
-    image: "/images/tvshows/bridgerton.jpg",
+    image: "/imdb/images/tvshows/bridgerton.jpg",
     rating: "7.4",
     name: "Bridgerton",
     watchOption: {
@@ -689,7 +689,7 @@ const MoviesList = [
       Stars: "Nicola Coughlan - Claudia Jessie - Luke Thompson",
       platform: "netflix",
       platformLink: "https://www.netflix.com/in/title/80232398?source=imdb",
-      ottImage: '/images/ott/netflix.webp'
+      ottImage: '/imdb/images/ott/netflix.webp'
     },
     trailer: "https://www.youtube.com/watch?v=gpv7ayf_tyE",
     bookmark: false,
@@ -699,7 +699,7 @@ const MoviesList = [
   {
     id: 30,
     type: "tvshow",
-    image: "/images/tvshows/game-of-thrones.jpg",
+    image: "/imdb/images/tvshows/game-of-thrones.jpg",
     rating: "9.2",
     name: "Game of Thrones",
     watchOption: {
@@ -713,7 +713,7 @@ const MoviesList = [
       Stars: "Emilia Clarke - Peter Dinklage - Kit Harington",
       platform: "jiocinema",
       platformLink: "https://www.jiocinema.com/tv-shows/-/3739477",
-      ottImage: '/images/ott/jiocinema.webp'
+      ottImage: '/imdb/images/ott/jiocinema.webp'
     },
     trailer: "https://www.youtube.com/watch?v=KPLWWIOCOOQ",
     bookmark: false,
@@ -723,7 +723,7 @@ const MoviesList = [
   {
     id: 31,
     type: "tvshow",
-    image: "/images/tvshows/your-honor.jpg",
+    image: "/imdb/images/tvshows/your-honor.jpg",
     rating: "7.6",
     name: "Your Honor",
     watchOption: {
@@ -737,7 +737,7 @@ const MoviesList = [
       Stars: "Bryan Cranston - Hope Davis - Michael Stuhlbarg",
       platform: "jiocinema",
       platformLink: "https://www.jiocinema.com/tv-shows/-/3740726",
-      ottImage: '/images/ott/jiocinema.webp'
+      ottImage: '/imdb/images/ott/jiocinema.webp'
     },
     trailer: "https://www.youtube.com/watch?v=CUkZfD3PsT4",
     bookmark: false,
@@ -747,7 +747,7 @@ const MoviesList = [
   {
     id: 32,
     type: "tvshow",
-    image: "/images/tvshows/dexter.jpg",
+    image: "/imdb/images/tvshows/dexter.jpg",
     rating: "8.6",
     name: "Dexter",
     watchOption: {
@@ -761,7 +761,7 @@ const MoviesList = [
       Stars: "Michael C. Hall - Jennifer Carpenter - David Zayas",
       platform: "netflix",
       platformLink: "https://www.netflix.com/in/title/70136126?source=imdb",
-      ottImage: '/images/ott/netflix.webp'
+      ottImage: '/imdb/images/ott/netflix.webp'
     },
     trailer: "https://www.youtube.com/watch?v=YQeUmSD1c3g",
     bookmark: false,
@@ -771,7 +771,7 @@ const MoviesList = [
   {
     id: 33,
     type: "tvshow",
-    image: "/images/tvshows/my-lady-jane.jpg",
+    image: "/imdb/images/tvshows/my-lady-jane.jpg",
     rating: "7.1",
     name: "My Lady Jane",
     watchOption: {
@@ -785,7 +785,7 @@ const MoviesList = [
       Stars: "Emily Bader - Edward Bluemel - Anna Chancellor",
       platform: "primevideo",
       platformLink: "https://www.primevideo.com/detail/amzn1.dv.gti.e3d03023-4e3b-45f1-9988-0c404a6eb3db",
-      ottImage: '/images/ott/amazonprime.webp'
+      ottImage: '/imdb/images/ott/amazonprime.webp'
     },
     trailer: "https://www.youtube.com/watch?v=PwFty8yi1cU",
     bookmark: false,
@@ -795,7 +795,7 @@ const MoviesList = [
   {
     id: 34,
     type: "tvshow",
-    image: "/images/tvshows/fallout.jpg",
+    image: "/imdb/images/tvshows/fallout.jpg",
     rating: "8.4",
     name: "Fallout",
     watchOption: {
@@ -809,7 +809,7 @@ const MoviesList = [
       Stars: "Ella Purnell - Aaron Moten - Walton Goggins",
       platform: "primevideo",
       platformLink: "https://www.primevideo.com/detail/amzn1.dv.gti.242f5d02-0b3e-4f4d-a89b-22da3f65f0ec",
-      ottImage: '/images/ott/amazonprime.webp'
+      ottImage: '/imdb/images/ott/amazonprime.webp'
     },
     trailer: "https://www.youtube.com/watch?v=V-mugKDQDlg",
     bookmark: false,
@@ -819,7 +819,7 @@ const MoviesList = [
   {
     id: 35,
     type: "tvshow",
-    image: "/images/tvshows/breaking-bad.jpg",
+    image: "/imdb/images/tvshows/breaking-bad.jpg",
     rating: "9.5",
     name: "Breaking bad",
     watchOption: {
@@ -833,7 +833,7 @@ const MoviesList = [
       Stars: "Bryan Cranston - Aaron Paul - Anna Gunn",
       platform: "netflix",
       platformLink: "https://www.netflix.com/in/title/70143836?source=imdb",
-      ottImage: '/images/ott/netflix.webp'
+      ottImage: '/imdb/images/ott/netflix.webp'
     },
     trailer: "https://www.youtube.com/watch?v=HhesaQXLuRY",
     bookmark: false,
@@ -843,7 +843,7 @@ const MoviesList = [
   {
     id: 36,
     type: "tvshow",
-    image: "/images/tvshows/suits.jpg",
+    image: "/imdb/images/tvshows/suits.jpg",
     rating: "8.4",
     name: "Suits",
     watchOption: {
@@ -857,7 +857,7 @@ const MoviesList = [
       Stars: "Gabriel Macht - Patrick J.Adams - Meghan Markle",
       platform: "netflix",
       platformLink: "https://www.netflix.com/in/title/70195800?source=imdb",
-      ottImage: '/images/ott/netflix.webp'
+      ottImage: '/imdb/images/ott/netflix.webp'
     },
     trailer: "https://www.youtube.com/watch?v=85z53bAebsI",
     bookmark: false,
@@ -867,7 +867,7 @@ const MoviesList = [
   {
     id: 37,
     type: "tvshow",
-    image: "/images/tvshows/stranger-things.jpg",
+    image: "/imdb/images/tvshows/stranger-things.jpg",
     rating: "8.7",
     name: "Stranger Things",
     watchOption: {
@@ -881,7 +881,7 @@ const MoviesList = [
       Stars: "Millie Bobby Brown - Finn Wolfhard - Winona Ryder",
       platform: "netflix",
       platformLink: "https://www.netflix.com/in/title/80057281?source=imdb",
-      ottImage: '/images/ott/netflix.webp'
+      ottImage: '/imdb/images/ott/netflix.webp'
     },
     trailer: "https://www.youtube.com/watch?v=b9EkMc79ZSU",
     bookmark: false,
@@ -891,7 +891,7 @@ const MoviesList = [
   {
     id: 38,
     type: "tvshow",
-    image: "/images/tvshows/yellowstone.jpg",
+    image: "/imdb/images/tvshows/yellowstone.jpg",
     rating: "8.7",
     name: "YellowStone",
     watchOption: {
@@ -905,7 +905,7 @@ const MoviesList = [
       Stars: "Kevin Costner - Luke Grimes - Kelly Reilly",
       platform: "netflix",
       platformLink: "https://www.netflix.com/in/title/80238738?source=imdb",
-      ottImage: '/images/ott/netflix.webp'
+      ottImage: '/imdb/images/ott/netflix.webp'
     },
     trailer: "https://www.youtube.com/watch?v=jr32f0rnK1o",
     bookmark: false,
@@ -915,7 +915,7 @@ const MoviesList = [
   {
     id: 39,
     type: "tvshow",
-    image: "/images/tvshows/mayor-of-kingstown.jpg",
+    image: "/imdb/images/tvshows/mayor-of-kingstown.jpg",
     rating: "8.2",
     name: "Mayor of Kingstown",
     watchOption: {
@@ -929,7 +929,7 @@ const MoviesList = [
       Stars: "Jeremy Renner - Hugh Dillon - Tobi Bamtefa",
       platform: "primevideo",
       platformLink: "https://www.primevideo.com/detail/amzn1.dv.gti.da943be2-e129-4a80-a41f-04a9b0d9a6cc",
-      ottImage: '/images/ott/amazonprime.webp'
+      ottImage: '/imdb/images/ott/amazonprime.webp'
     },
     trailer: "https://www.youtube.com/watch?v=zhmIVF2dTbI",
     bookmark: false,
@@ -939,7 +939,7 @@ const MoviesList = [
   {
     id: 40,
     type: "tvshow",
-    image: "/images/tvshows/the-sopranos.jpg",
+    image: "/imdb/images/tvshows/the-sopranos.jpg",
     rating: "9.2",
     name: "The Sopranos",
     watchOption: {
@@ -953,7 +953,7 @@ const MoviesList = [
       Stars: "James gandolfini - Lorraine Bracco - Edie Falco",
       platform: "jiocinema",
       platformLink: "https://www.jiocinema.com/tv-shows/-/3748558",
-      ottImage: '/images/ott/jiocinema.webp'
+      ottImage: '/imdb/images/ott/jiocinema.webp'
     },
     trailer: "https://www.youtube.com/watch?v=KMx4iFcozK0",
     bookmark: false,
@@ -963,7 +963,7 @@ const MoviesList = [
   {
     id: 41,
     type: "tvshow",
-    image: "/images/tvshows/demon-slayer-kimetsu-no-yaiba.jpg",
+    image: "/imdb/images/tvshows/demon-slayer-kimetsu-no-yaiba.jpg",
     rating: "8.6",
     name: "Demon Slayer: Kimetsu no Yaiba",
     watchOption: {
@@ -977,7 +977,7 @@ const MoviesList = [
       Stars: "Natsuki Hanae - Zach Aguilar - Akari Kito",
       platform: "Netflix",
       platformLink: "https://www.netflix.com/in/title/81091393?source=imdb",
-      ottImage: '/images/ott/netflix.webp'
+      ottImage: '/imdb/images/ott/netflix.webp'
     },
     trailer: "https://www.youtube.com/watch?v=VQGCKyvzIM4",
     bookmark: false,
@@ -987,7 +987,7 @@ const MoviesList = [
   {
     id: 42,
     type: "tvshow",
-    image: "/images/tvshows/the-walking-dead.jpg",
+    image: "/imdb/images/tvshows/the-walking-dead.jpg",
     rating: "8.1",
     name: "The Walking Dead",
     watchOption: {
@@ -1001,7 +1001,7 @@ const MoviesList = [
       Stars: "Andrew Lincoln - Norman Reedus - Melissa McBride",
       platform: "Netflix",
       platformLink: "https://www.netflix.com/in/title/70177057?source=imdb",
-      ottImage: '/images/ott/netflix.webp'
+      ottImage: '/imdb/images/ott/netflix.webp'
     },
     trailer: "https://www.youtube.com/watch?v=sfAc2U20uyg",
     bookmark: false,
@@ -1011,7 +1011,7 @@ const MoviesList = [
   {
     id: 43,
     type: "tvshow",
-    image: "/images/tvshows/rick-and-morty.jpg",
+    image: "/imdb/images/tvshows/rick-and-morty.jpg",
     rating: "9.1",
     name: "The Walking Dead",
     watchOption: {
@@ -1025,7 +1025,7 @@ const MoviesList = [
       Stars: "Chris Parnell - Spencer Grammer - Sarah Chalke",
       platform: "primevideo",
       platformLink: "https://www.primevideo.com/detail/0QI3JIM9Q2523PESE1LB8LCCAA/ref=atv_dp_season_select_s1",
-      ottImage: '/images/ott/amazonprime.webp'
+      ottImage: '/imdb/images/ott/amazonprime.webp'
     },
     trailer: "https://www.youtube.com/watch?v=WNhH00OIPP0",
     bookmark: false,
@@ -1035,7 +1035,7 @@ const MoviesList = [
   {
     id: 44,
     type: "tvshow",
-    image: "/images/tvshows/young-sheldon.jpg",
+    image: "/imdb/images/tvshows/young-sheldon.jpg",
     rating: "7.7",
     name: "Young Sheldon",
     watchOption: {
@@ -1049,7 +1049,7 @@ const MoviesList = [
       Stars: "Lain Armitage - Zoe Perry - Lance Barber",
       platform: "primevideo",
       platformLink: "https://www.primevideo.com/detail/amzn1.dv.gti.e0af5e20-332b-e81b-5761-951680d2ea58",
-      ottImage: '/images/ott/amazonprime.webp'
+      ottImage: '/imdb/images/ott/amazonprime.webp'
     },
     trailer: "https://www.youtube.com/watch?v=iGKnI3Lc7C4",
     bookmark: false,
@@ -1059,7 +1059,7 @@ const MoviesList = [
   {
     id: 45,
     type: "tvshow",
-    image: "/images/tvshows/gen-v.jpg",
+    image: "/imdb/images/tvshows/gen-v.jpg",
     rating: "7.7",
     name: "Gen V",
     watchOption: {
@@ -1073,7 +1073,7 @@ const MoviesList = [
       Stars: "Jaz Sinclair - Lizza Braodway - Maddie Phillips",
       platform: "primevideo",
       platformLink: "https://www.primevideo.com/detail/amzn1.dv.gti.c1065d44-a359-47d3-9aca-303d118e3649",
-      ottImage: '/images/ott/amazonprime.webp'
+      ottImage: '/imdb/images/ott/amazonprime.webp'
     },
     trailer: "https://www.youtube.com/watch?v=mmkLMXN_lpI",
     bookmark: false,
@@ -1083,7 +1083,7 @@ const MoviesList = [
   {
     id: 46,
     type: "tvshow",
-    image: "/images/tvshows/peaky-blinders.jpg",
+    image: "/imdb/images/tvshows/peaky-blinders.jpg",
     rating: "8.8",
     name: "Peaky Blinders",
     watchOption: {
@@ -1097,7 +1097,7 @@ const MoviesList = [
       Stars: "Cillian Murphy - Paul Anderson - Sophie Rundle",
       platform: "netflix",
       platformLink: "https://www.netflix.com/in/title/80002479?source=imdb",
-      ottImage: '/images/ott/netflix.webp'
+      ottImage: '/imdb/images/ott/netflix.webp'
     },
     trailer: "https://www.youtube.com/watch?v=oVzVdvGIC7U",
     bookmark: false,
@@ -1107,7 +1107,7 @@ const MoviesList = [
   {
     id: 47,
     type: "tvshow",
-    image: "/images/tvshows/better-call-saul.jpg",
+    image: "/imdb/images/tvshows/better-call-saul.jpg",
     rating: "9.0",
     name: "Better Call Saul",
     watchOption: {
@@ -1121,7 +1121,7 @@ const MoviesList = [
       Stars: "Bob Odenkirk - Rhea Seehorn - Jonathan Banks",
       platform: "netflix",
       platformLink: "https://www.netflix.com/in/title/80021955?source=imdb",
-      ottImage: '/images/ott/netflix.webp'
+      ottImage: '/imdb/images/ott/netflix.webp'
     },
     trailer: "https://www.youtube.com/watch?v=HN4oydykJFc",
     bookmark: false,
@@ -1131,7 +1131,7 @@ const MoviesList = [
   {
     id: 48,
     type: "tvshow",
-    image: "/images/tvshows/narcos.jpg",
+    image: "/imdb/images/tvshows/narcos.jpg",
     rating: "8.8",
     name: "Narcos",
     watchOption: {
@@ -1145,7 +1145,7 @@ const MoviesList = [
       Stars: "Pedro Pascal - Wagner Moura - Boyd Holbrook",
       platform: "netflix",
       platformLink: "https://www.netflix.com/in/title/80025172?source=imdb",
-      ottImage: '/images/ott/netflix.webp'
+      ottImage: '/imdb/images/ott/netflix.webp'
     },
     trailer: "https://www.youtube.com/watch?v=xl8zdCY-abw",
     bookmark: false,
@@ -1155,7 +1155,7 @@ const MoviesList = [
   {
     id: 49,
     type: "tvshow",
-    image: "/images/tvshows/the-big-bang-theory.jpg",
+    image: "/imdb/images/tvshows/the-big-bang-theory.jpg",
     rating: "8.1",
     name: "The Big Bang Theory",
     watchOption: {
@@ -1169,7 +1169,7 @@ const MoviesList = [
       Stars: "Johnny Galecki - Jim Parsons - Kaley Cuoco",
       platform: "netflix",
       platformLink: "https://www.netflix.com/in/title/70143830",
-      ottImage: '/images/ott/netflix.webp'
+      ottImage: '/imdb/images/ott/netflix.webp'
     },
     trailer: "https://www.youtube.com/watch?v=WBb3fojgW0Q",
     bookmark: false,
@@ -1179,7 +1179,7 @@ const MoviesList = [
   {
     id: 50,
     type: "tvshow",
-    image: "/images/tvshows/the-last-of-us.jpg",
+    image: "/imdb/images/tvshows/the-last-of-us.jpg",
     rating: "8.7",
     name: "The Big Bang Theory",
     watchOption: {
@@ -1193,7 +1193,7 @@ const MoviesList = [
       Stars: "Pedro Pascal - Bella Ramsey - Anna Torv",
       platform: "jiocinema",
       platformLink: "https://www.jiocinema.com/tv-shows/-/3740001",
-      ottImage: '/images/ott/jiocinema.webp'
+      ottImage: '/imdb/images/ott/jiocinema.webp'
     },
     trailer: "https://www.youtube.com/watch?v=uLtkt8BonwM",
     bookmark: false,

@@ -12,9 +12,9 @@ const App = () => {
       <DataProvider>
         <Header />
         <Routes>
-          <Route path='/' element={<Content />}/>
-          <Route path='/watchoption/:id' element={<WatchOption/>}/>
-          <Route path='/watchlist' element={<WatchList/>}/>
+          <Route path='imdb/' element={<Content />}/>
+          <Route path='imdb/watchoption/:id' element={<WatchOption/>}/>
+          <Route path='imdb/watchlist' element={<WatchList/>}/>
         </Routes>
       </DataProvider>
     </>

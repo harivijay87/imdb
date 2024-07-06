@@ -22,7 +22,7 @@ const Movies = ({list, addToBookMark, addStar}) => {
           </div>
           <div className='movie-name'>{(movie.name).length < 20 ? movie.name : `${movie.name.slice(0,16)}....`}</div>
           <div className='buttons'>
-            <Link to={`/watchoption/${movie.id}`} style={{textDecoration: "none"}}>
+            <Link to={`/imdb/watchoption/${movie.id}`} style={{textDecoration: "none"}}>
               <button className='watch-button'>Watch options</button>
             </Link>
             <Link to={movie.trailer} style={{textDecoration: "none"}} target='_blank' rel='noopener noreferrer'>
