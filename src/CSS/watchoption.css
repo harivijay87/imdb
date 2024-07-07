@@ -159,6 +159,19 @@
   border-radius: 10px;
   border: 1px solid ;
 }
+.empty-list{
+  color: white;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.empty-list svg{
+  height: 300px;
+  width: 300px;
+  color: rgb(195, 195, 195);
+}
+
 
 @media (width < 1230px){
   .middle .right{
