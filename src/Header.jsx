@@ -29,7 +29,7 @@ const Header = () => {
               value={search}
               onChange={(e) => setSearch(e.target.value)}
             />
-            <Link to='/imdb/' style={{textDecoration:'none'}}>
+            <Link to='/' style={{textDecoration:'none'}}>
               <button>
                 <FaHome/>
               </button>
@@ -37,7 +37,7 @@ const Header = () => {
           </div>
 
           <div className='right-section'>
-            <Link to='/imdb/watchlist' style={{textDecoration:'none'}}><button className='watchlist'><FaBookmark />WatchList</button></Link>
+            <Link to='/watchlist' style={{textDecoration:'none'}}><button className='watchlist'><FaBookmark />WatchList</button></Link>
             <button className='sign'>Sign In</button>
           </div>
         </header>
